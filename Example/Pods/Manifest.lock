@@ -1,0 +1,16 @@
+PODS:
+  - RLACoordinator (0.1.0)
+
+DEPENDENCIES:
+  - RLACoordinator (from `../`)
+
+EXTERNAL SOURCES:
+  RLACoordinator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RLACoordinator: 69586660b2289e43fe769e17a8d27854909edf5a
+
+PODFILE CHECKSUM: df155de48098b94aa37429256ed713e8b08f4377
+
+COCOAPODS: 1.7.0
