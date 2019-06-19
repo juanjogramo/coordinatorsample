@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RLACoordinator_Example' do
+  pod 'RLACoordinator', :path => '../'
+
+  target 'RLACoordinator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
