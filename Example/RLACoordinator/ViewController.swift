@@ -7,18 +7,23 @@
 //
 
 import UIKit
+import RLACoordinator
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+class ViewController: UIViewController, Storyboarded {
+  
+  weak var coordinator: MainCoordinator?
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
+  
+  @IBAction func buyAction(_ sender: UIButton) {
+    coordinator?.buySubscription()
+  }
+  
+  @IBAction func createAccountAction(_ sender: UIButton) {
+    coordinator?.createAccount()
+  }
+  
 }
 

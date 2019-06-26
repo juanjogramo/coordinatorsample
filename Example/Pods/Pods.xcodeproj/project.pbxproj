@@ -7,92 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045FCD3729981FC6535400B5BA644C93 /* RLACoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 855B0DE8674AC301CB5B74767DDDBC95 /* RLACoordinator-dummy.m */; };
-		665BF1170CABED470BF916AC0CEAB76F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		76612E5FDABB686A640F8F99D184F42E /* Pods-RLACoordinator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B0307D9820C63E3F168AD5C0392BE5 /* Pods-RLACoordinator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ADCC53A0FE95FC8651704A644714FFB /* RLACoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 930C3C3D6943715D3C0B0488D18C7777 /* RLACoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		896E020A6B1A14FD8215E162931E3974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8FF4BDE093E98308C6AFEA94CBA85A9C /* Pods-RLACoordinator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E930EB8D3CB8267F924AE833620A7C /* Pods-RLACoordinator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91FC0B410D76B45E91896ADFF0B14185 /* Pods-RLACoordinator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D923CFBECF548FC909FD9AB9088E82 /* Pods-RLACoordinator_Tests-dummy.m */; };
-		A0EA61FF2FA75F70641C9F4666493B6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A6BBAB17294C70FA64186969D3F3080E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1767E4224C85637318730F76CACD7 /* ReplaceMe.swift */; };
-		EA1D3895295CC30D708D14F2F5C03B84 /* Pods-RLACoordinator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB31B01AC738E7AB6777DFB5B3ECEFA5 /* Pods-RLACoordinator_Example-dummy.m */; };
+		049462E2D2D6567F85CD68D6095B836A /* RLACoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E6BCB13BF7538922F78B4E1C1B46BF /* RLACoordinator-dummy.m */; };
+		1E3439408191EAE45B8C2F89C0B5E596 /* Pods-RLACoordinator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB31B01AC738E7AB6777DFB5B3ECEFA5 /* Pods-RLACoordinator_Example-dummy.m */; };
+		2BD5E5377513D9B3BB348FF93A199E23 /* Pods-RLACoordinator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B0307D9820C63E3F168AD5C0392BE5 /* Pods-RLACoordinator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B12B7B02EF5ABBBBD1FE3FE57B20DB2 /* RLACoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F25FD5E51B5768251EB6ADA65D1756A2 /* RLACoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77850E19D2F17DA68555AC759A02A55B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		92F98329D1D74CFDF450B0248D492B93 /* Pods-RLACoordinator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E930EB8D3CB8267F924AE833620A7C /* Pods-RLACoordinator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE8590CDECB608BDD9FDF5C5DFD3082 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36305978088F8B30DACBE6C5C2DCA3 /* Storyboarded.swift */; };
+		A6F2D7955661C149654E6D3B56397425 /* Pods-RLACoordinator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D923CFBECF548FC909FD9AB9088E82 /* Pods-RLACoordinator_Tests-dummy.m */; };
+		C8C3F5054970F81F44979787A2882DE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C9BCD4ECD8C361F5DE56880C6DB45295 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59F35B8AE8D39DF191E1DF68981DBEF /* Coordinator.swift */; };
+		E3A9FE1736C36711E6927A80C3E5E9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DA87DBAAA1C165632485E8A3F7FCDC5E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B833D295C5274802F64ECFAFB7744842;
-			remoteInfo = RLACoordinator;
-		};
-		E50A3154BCF58773C25E053A2BABF43D /* PBXContainerItemProxy */ = {
+		1C1AED8855200393F9C34EC5208280D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E0D1144CE95465F7D2819D6A354091CB;
 			remoteInfo = "Pods-RLACoordinator_Example";
 		};
+		7872F4F8DD7129D57B6AEA55F3D0FEF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B833D295C5274802F64ECFAFB7744842;
+			remoteInfo = RLACoordinator;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01AF8171A6B2C323413C51820153D4E5 /* Pods-RLACoordinator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLACoordinator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		04D923CFBECF548FC909FD9AB9088E82 /* Pods-RLACoordinator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RLACoordinator_Tests-dummy.m"; sourceTree = "<group>"; };
+		0C0843B2CB1B334E68DDDD3283CFBB1C /* RLACoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RLACoordinator.framework; path = RLACoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E74B6DE41B9E7DAB65B40A99348746F /* Pods_RLACoordinator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RLACoordinator_Tests.framework; path = "Pods-RLACoordinator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131E0E800C6E6B6D52AA14EEECC3915A /* Pods-RLACoordinator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RLACoordinator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		13686F0A44D66285A20CA702D605FCCF /* Pods_RLACoordinator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RLACoordinator_Example.framework; path = "Pods-RLACoordinator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		163B4F6BFAE4756CD24E511FA356D0A6 /* Pods-RLACoordinator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RLACoordinator_Example.modulemap"; sourceTree = "<group>"; };
-		1DB1767E4224C85637318730F76CACD7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RLACoordinator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		204DA122C1F6D3E7B6015C50C7A25D5A /* RLACoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RLACoordinator.modulemap; sourceTree = "<group>"; };
 		2648B556179C72AC45F880C5C3A7BE33 /* Pods-RLACoordinator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RLACoordinator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C19894DF0253B6C8F12E5B5406F1BA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2ECC2156DC792FD3260490D5765F8C00 /* Pods-RLACoordinator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLACoordinator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		318E971DA46A2908B1583D69981F1473 /* Pods-RLACoordinator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RLACoordinator_Tests.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3A32BE538CB3095E28B3E60CFB5D1BA0 /* Pods-RLACoordinator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RLACoordinator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4070442A54871F2BB56CCC9C21416D64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F36305978088F8B30DACBE6C5C2DCA3 /* Storyboarded.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storyboarded.swift; path = RLACoordinator/Classes/Storyboarded.swift; sourceTree = "<group>"; };
 		431DFF999AB7EAA8D4EC435088CC038E /* Pods-RLACoordinator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLACoordinator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		45B0307D9820C63E3F168AD5C0392BE5 /* Pods-RLACoordinator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RLACoordinator_Example-umbrella.h"; sourceTree = "<group>"; };
 		45E930EB8D3CB8267F924AE833620A7C /* Pods-RLACoordinator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RLACoordinator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6C8685E635E2311BD838AA1539971B4C /* RLACoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RLACoordinator-prefix.pch"; sourceTree = "<group>"; };
-		81727164ED385A37BC6CC6A59418964A /* RLACoordinator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RLACoordinator.xcconfig; sourceTree = "<group>"; };
-		855B0DE8674AC301CB5B74767DDDBC95 /* RLACoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RLACoordinator-dummy.m"; sourceTree = "<group>"; };
+		46D7F1A7A5049F2BE8642F0483DA1A0B /* RLACoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RLACoordinator-prefix.pch"; sourceTree = "<group>"; };
 		91A46C44CBA16DF96996DA38BF48A9DB /* Pods-RLACoordinator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RLACoordinator_Example-Info.plist"; sourceTree = "<group>"; };
-		930C3C3D6943715D3C0B0488D18C7777 /* RLACoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RLACoordinator-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7FC6EA2854140CB58DA166EA7449AE0 /* Pods_RLACoordinator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RLACoordinator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3774EC93A6A64F7B9CEA2FD0583AF3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C6D22C77B624E4A5FFDF21262D0601C5 /* RLACoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RLACoordinator-Info.plist"; sourceTree = "<group>"; };
-		CA9FFD34AEDCE606BD10B837B239D42E /* Pods_RLACoordinator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RLACoordinator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E6BCB13BF7538922F78B4E1C1B46BF /* RLACoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RLACoordinator-dummy.m"; sourceTree = "<group>"; };
+		B071E3005A5B147F7C1F5BEB77D4F77A /* RLACoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RLACoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B59F35B8AE8D39DF191E1DF68981DBEF /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = RLACoordinator/Classes/Coordinator.swift; sourceTree = "<group>"; };
+		B8353C7ED7DEB40F3E6DE8817C6406C0 /* RLACoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RLACoordinator.modulemap; sourceTree = "<group>"; };
+		C1390B987D3DD8340D639235953224F3 /* RLACoordinator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RLACoordinator.xcconfig; sourceTree = "<group>"; };
+		D89F9ADD3B64569F40C5C7D40EB7FCE6 /* RLACoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RLACoordinator-Info.plist"; sourceTree = "<group>"; };
 		DD6B3D92E63FC7AB36938419F5B19E2F /* Pods-RLACoordinator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RLACoordinator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E983B9A6E093A6C768318FA75F60D0DC /* RLACoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RLACoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DA71A03B6A7B8E56B0354100B8B0C4 /* Pods-RLACoordinator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RLACoordinator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB31B01AC738E7AB6777DFB5B3ECEFA5 /* Pods-RLACoordinator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RLACoordinator_Example-dummy.m"; sourceTree = "<group>"; };
 		EF48645E639079C7F6F478205E476871 /* Pods-RLACoordinator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RLACoordinator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F1FD8C53395641E33BCA4A4BCDC1944F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F25FD5E51B5768251EB6ADA65D1756A2 /* RLACoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RLACoordinator-umbrella.h"; sourceTree = "<group>"; };
 		FB7DDE109847A2ECE3E032729E6C9A58 /* Pods-RLACoordinator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RLACoordinator_Tests-Info.plist"; sourceTree = "<group>"; };
-		FC40765F9768591FCC1EC814A678338C /* RLACoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RLACoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47DCB75AFBC04F9B4163E9892FF80750 /* Frameworks */ = {
+		06135CE22A8A05B0C2920DC4931FE05A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665BF1170CABED470BF916AC0CEAB76F /* Foundation.framework in Frameworks */,
+				77850E19D2F17DA68555AC759A02A55B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		822B39411732C02951A24004867C92F5 /* Frameworks */ = {
+		2526E09CE128B78FEDB8C49E358C4488 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EA61FF2FA75F70641C9F4666493B6B /* Foundation.framework in Frameworks */,
+				E3A9FE1736C36711E6927A80C3E5E9F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82DF44C0A0C4A42F6AAE0C53CD60D0CD /* Frameworks */ = {
+		DC3DAD8BA202D2CA3F5BFBED184F1E71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				896E020A6B1A14FD8215E162931E3974 /* Foundation.framework in Frameworks */,
+				C8C3F5054970F81F44979787A2882DE8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,15 +118,15 @@
 			path = "Target Support Files/Pods-RLACoordinator_Example";
 			sourceTree = "<group>";
 		};
-		3046B270D1CAD3758C02DE0B55FF7D37 /* Support Files */ = {
+		237F3A057A7001FD073C7B730D985D94 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				204DA122C1F6D3E7B6015C50C7A25D5A /* RLACoordinator.modulemap */,
-				81727164ED385A37BC6CC6A59418964A /* RLACoordinator.xcconfig */,
-				855B0DE8674AC301CB5B74767DDDBC95 /* RLACoordinator-dummy.m */,
-				C6D22C77B624E4A5FFDF21262D0601C5 /* RLACoordinator-Info.plist */,
-				6C8685E635E2311BD838AA1539971B4C /* RLACoordinator-prefix.pch */,
-				930C3C3D6943715D3C0B0488D18C7777 /* RLACoordinator-umbrella.h */,
+				B8353C7ED7DEB40F3E6DE8817C6406C0 /* RLACoordinator.modulemap */,
+				C1390B987D3DD8340D639235953224F3 /* RLACoordinator.xcconfig */,
+				A5E6BCB13BF7538922F78B4E1C1B46BF /* RLACoordinator-dummy.m */,
+				D89F9ADD3B64569F40C5C7D40EB7FCE6 /* RLACoordinator-Info.plist */,
+				46D7F1A7A5049F2BE8642F0483DA1A0B /* RLACoordinator-prefix.pch */,
+				F25FD5E51B5768251EB6ADA65D1756A2 /* RLACoordinator-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RLACoordinator";
@@ -139,33 +141,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		44E125431534CC45A58B5F214F9FFAB5 /* Development Pods */ = {
+		5BDAE9CAE770E0CF90CF7C6DA6A7E7A2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B492F85BE8A2E6189649C7927971CFD2 /* RLACoordinator */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8D714BAE4C391F571F16D43E2314C9C4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B3774EC93A6A64F7B9CEA2FD0583AF3B /* LICENSE */,
-				4070442A54871F2BB56CCC9C21416D64 /* README.md */,
-				FC40765F9768591FCC1EC814A678338C /* RLACoordinator.podspec */,
+				2C19894DF0253B6C8F12E5B5406F1BA0 /* LICENSE */,
+				F1FD8C53395641E33BCA4A4BCDC1944F /* README.md */,
+				B071E3005A5B147F7C1F5BEB77D4F77A /* RLACoordinator.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		B492F85BE8A2E6189649C7927971CFD2 /* RLACoordinator */ = {
-			isa = PBXGroup;
-			children = (
-				1DB1767E4224C85637318730F76CACD7 /* ReplaceMe.swift */,
-				8D714BAE4C391F571F16D43E2314C9C4 /* Pod */,
-				3046B270D1CAD3758C02DE0B55FF7D37 /* Support Files */,
-			);
-			name = RLACoordinator;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -180,7 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				44E125431534CC45A58B5F214F9FFAB5 /* Development Pods */,
+				DF149778EE327548B8B7572C06A2E73D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				ED95FF0D03B850C7401D8A0B181700AB /* Products */,
 				4299FC99F25EE259FB349BEFC873E193 /* Targets Support Files */,
@@ -195,14 +178,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF149778EE327548B8B7572C06A2E73D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE45B7E872D0DE80159DE91C8FED3C45 /* RLACoordinator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		ED95FF0D03B850C7401D8A0B181700AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7FC6EA2854140CB58DA166EA7449AE0 /* Pods_RLACoordinator_Example.framework */,
-				CA9FFD34AEDCE606BD10B837B239D42E /* Pods_RLACoordinator_Tests.framework */,
-				E983B9A6E093A6C768318FA75F60D0DC /* RLACoordinator.framework */,
+				13686F0A44D66285A20CA702D605FCCF /* Pods_RLACoordinator_Example.framework */,
+				0E74B6DE41B9E7DAB65B40A99348746F /* Pods_RLACoordinator_Tests.framework */,
+				0C0843B2CB1B334E68DDDD3283CFBB1C /* RLACoordinator.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EE45B7E872D0DE80159DE91C8FED3C45 /* RLACoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				B59F35B8AE8D39DF191E1DF68981DBEF /* Coordinator.swift */,
+				3F36305978088F8B30DACBE6C5C2DCA3 /* Storyboarded.swift */,
+				5BDAE9CAE770E0CF90CF7C6DA6A7E7A2 /* Pod */,
+				237F3A057A7001FD073C7B730D985D94 /* Support Files */,
+			);
+			name = RLACoordinator;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F5532BF53F08BEA5BA1A27A87096E826 /* Pods-RLACoordinator_Tests */ = {
@@ -224,27 +227,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4E0C6839B27ED80A9A82537B03CE4044 /* Headers */ = {
+		38C88C8311E34860F6048C682EDF30A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76612E5FDABB686A640F8F99D184F42E /* Pods-RLACoordinator_Example-umbrella.h in Headers */,
+				3B12B7B02EF5ABBBBD1FE3FE57B20DB2 /* RLACoordinator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE2149514CCB10F1B3666CD1B473B6B1 /* Headers */ = {
+		5F51CA4BC7F5B36D2E9CDA62038485CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF4BDE093E98308C6AFEA94CBA85A9C /* Pods-RLACoordinator_Tests-umbrella.h in Headers */,
+				92F98329D1D74CFDF450B0248D492B93 /* Pods-RLACoordinator_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA2CD1EF91FEACEB72A62F729CDF2264 /* Headers */ = {
+		E8BB9E989EEC030F808B586C56499D5B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ADCC53A0FE95FC8651704A644714FFB /* RLACoordinator-umbrella.h in Headers */,
+				2BD5E5377513D9B3BB348FF93A199E23 /* Pods-RLACoordinator_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +256,12 @@
 /* Begin PBXNativeTarget section */
 		B833D295C5274802F64ECFAFB7744842 /* RLACoordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 883F6D8482B7E37B601FE3F087AC9A93 /* Build configuration list for PBXNativeTarget "RLACoordinator" */;
+			buildConfigurationList = 1E1BD2332967BB2AB16D00A83F593109 /* Build configuration list for PBXNativeTarget "RLACoordinator" */;
 			buildPhases = (
-				FA2CD1EF91FEACEB72A62F729CDF2264 /* Headers */,
-				6E03E555B880F55503E4A92DD4E887FE /* Sources */,
-				82DF44C0A0C4A42F6AAE0C53CD60D0CD /* Frameworks */,
-				E6354982C591B6D7D3FC57257EA917D4 /* Resources */,
+				38C88C8311E34860F6048C682EDF30A6 /* Headers */,
+				BC24047C723D4901108952D032CEE4D9 /* Sources */,
+				06135CE22A8A05B0C2920DC4931FE05A /* Frameworks */,
+				039B816F516706A88C31F3A2EB5668D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -266,45 +269,45 @@
 			);
 			name = RLACoordinator;
 			productName = RLACoordinator;
-			productReference = E983B9A6E093A6C768318FA75F60D0DC /* RLACoordinator.framework */;
+			productReference = 0C0843B2CB1B334E68DDDD3283CFBB1C /* RLACoordinator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CC6C462AEBB50A568E6ECE84354BE500 /* Pods-RLACoordinator_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB21FBA181346544DA1388688893ECB6 /* Build configuration list for PBXNativeTarget "Pods-RLACoordinator_Tests" */;
+			buildConfigurationList = 3398DE7EA4AA9918FC099755E8455612 /* Build configuration list for PBXNativeTarget "Pods-RLACoordinator_Tests" */;
 			buildPhases = (
-				EE2149514CCB10F1B3666CD1B473B6B1 /* Headers */,
-				58269550BD0CEEA3862E29F308AB30EE /* Sources */,
-				47DCB75AFBC04F9B4163E9892FF80750 /* Frameworks */,
-				B3D534F8DE7C9D2129A4E5B840EA1867 /* Resources */,
+				5F51CA4BC7F5B36D2E9CDA62038485CB /* Headers */,
+				2E85E29AFEB7FAA29A81B914F07CB593 /* Sources */,
+				DC3DAD8BA202D2CA3F5BFBED184F1E71 /* Frameworks */,
+				D0E1E611CC4C9C3AB5814A857F82D9EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				688E56E8D38F2F19402A7EDEF2FA85D3 /* PBXTargetDependency */,
+				15425DB33467BDCD6E88BE3ADDA9B406 /* PBXTargetDependency */,
 			);
 			name = "Pods-RLACoordinator_Tests";
 			productName = "Pods-RLACoordinator_Tests";
-			productReference = CA9FFD34AEDCE606BD10B837B239D42E /* Pods_RLACoordinator_Tests.framework */;
+			productReference = 0E74B6DE41B9E7DAB65B40A99348746F /* Pods_RLACoordinator_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E0D1144CE95465F7D2819D6A354091CB /* Pods-RLACoordinator_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6B107AF62D3FD98C7E67B798FE27BCB /* Build configuration list for PBXNativeTarget "Pods-RLACoordinator_Example" */;
+			buildConfigurationList = BD8E711FB783E528008F07C78D07BBCF /* Build configuration list for PBXNativeTarget "Pods-RLACoordinator_Example" */;
 			buildPhases = (
-				4E0C6839B27ED80A9A82537B03CE4044 /* Headers */,
-				2D71FB86DD884E34833E0F6F94C343CD /* Sources */,
-				822B39411732C02951A24004867C92F5 /* Frameworks */,
-				BD8CCB24E5FF13E376A990D4A13A579A /* Resources */,
+				E8BB9E989EEC030F808B586C56499D5B /* Headers */,
+				D3D82A67C1E41AE88A73CBBB18908CE3 /* Sources */,
+				2526E09CE128B78FEDB8C49E358C4488 /* Frameworks */,
+				DD4B2724799EDA81B054BA513FB3F94A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D6C9885E3245D72F472556D9D892C5DD /* PBXTargetDependency */,
+				00FA2C4142F2FCC96300337667FD3AA3 /* PBXTargetDependency */,
 			);
 			name = "Pods-RLACoordinator_Example";
 			productName = "Pods-RLACoordinator_Example";
-			productReference = A7FC6EA2854140CB58DA166EA7449AE0 /* Pods_RLACoordinator_Example.framework */;
+			productReference = 13686F0A44D66285A20CA702D605FCCF /* Pods_RLACoordinator_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -313,13 +316,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					B833D295C5274802F64ECFAFB7744842 = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,21 +339,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B3D534F8DE7C9D2129A4E5B840EA1867 /* Resources */ = {
+		039B816F516706A88C31F3A2EB5668D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD8CCB24E5FF13E376A990D4A13A579A /* Resources */ = {
+		D0E1E611CC4C9C3AB5814A857F82D9EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6354982C591B6D7D3FC57257EA917D4 /* Resources */ = {
+		DD4B2724799EDA81B054BA513FB3F94A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,151 +363,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D71FB86DD884E34833E0F6F94C343CD /* Sources */ = {
+		2E85E29AFEB7FAA29A81B914F07CB593 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1D3895295CC30D708D14F2F5C03B84 /* Pods-RLACoordinator_Example-dummy.m in Sources */,
+				A6F2D7955661C149654E6D3B56397425 /* Pods-RLACoordinator_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58269550BD0CEEA3862E29F308AB30EE /* Sources */ = {
+		BC24047C723D4901108952D032CEE4D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91FC0B410D76B45E91896ADFF0B14185 /* Pods-RLACoordinator_Tests-dummy.m in Sources */,
+				C9BCD4ECD8C361F5DE56880C6DB45295 /* Coordinator.swift in Sources */,
+				049462E2D2D6567F85CD68D6095B836A /* RLACoordinator-dummy.m in Sources */,
+				9FE8590CDECB608BDD9FDF5C5DFD3082 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E03E555B880F55503E4A92DD4E887FE /* Sources */ = {
+		D3D82A67C1E41AE88A73CBBB18908CE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6BBAB17294C70FA64186969D3F3080E /* ReplaceMe.swift in Sources */,
-				045FCD3729981FC6535400B5BA644C93 /* RLACoordinator-dummy.m in Sources */,
+				1E3439408191EAE45B8C2F89C0B5E596 /* Pods-RLACoordinator_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		688E56E8D38F2F19402A7EDEF2FA85D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-RLACoordinator_Example";
-			target = E0D1144CE95465F7D2819D6A354091CB /* Pods-RLACoordinator_Example */;
-			targetProxy = E50A3154BCF58773C25E053A2BABF43D /* PBXContainerItemProxy */;
-		};
-		D6C9885E3245D72F472556D9D892C5DD /* PBXTargetDependency */ = {
+		00FA2C4142F2FCC96300337667FD3AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RLACoordinator;
 			target = B833D295C5274802F64ECFAFB7744842 /* RLACoordinator */;
-			targetProxy = DA87DBAAA1C165632485E8A3F7FCDC5E /* PBXContainerItemProxy */;
+			targetProxy = 7872F4F8DD7129D57B6AEA55F3D0FEF3 /* PBXContainerItemProxy */;
+		};
+		15425DB33467BDCD6E88BE3ADDA9B406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RLACoordinator_Example";
+			target = E0D1144CE95465F7D2819D6A354091CB /* Pods-RLACoordinator_Example */;
+			targetProxy = 1C1AED8855200393F9C34EC5208280D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04B17EAF6956996F9A8237EA55AB1DC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 431DFF999AB7EAA8D4EC435088CC038E /* Pods-RLACoordinator_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RLACoordinator_Example/Pods-RLACoordinator_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RLACoordinator_Example/Pods-RLACoordinator_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0671B537F88B5DC5E1C9480308F4B49E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD6B3D92E63FC7AB36938419F5B19E2F /* Pods-RLACoordinator_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RLACoordinator_Tests/Pods-RLACoordinator_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RLACoordinator_Tests/Pods-RLACoordinator_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4CE1959F6731E62EC64C26A090BCD14A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81727164ED385A37BC6CC6A59418964A /* RLACoordinator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RLACoordinator/RLACoordinator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RLACoordinator/RLACoordinator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RLACoordinator/RLACoordinator.modulemap";
-				PRODUCT_MODULE_NAME = RLACoordinator;
-				PRODUCT_NAME = RLACoordinator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		527397B36F647356E0940D1AD6B58B62 /* Release */ = {
+		0B4733384C7D1E60F77BA8F0C14670E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01AF8171A6B2C323413C51820153D4E5 /* Pods-RLACoordinator_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,7 +425,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RLACoordinator_Tests/Pods-RLACoordinator_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RLACoordinator_Tests/Pods-RLACoordinator_Tests.modulemap";
@@ -539,41 +443,7 @@
 			};
 			name = Release;
 		};
-		68498308FA870D97BCDC7356F3DB31D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ECC2156DC792FD3260490D5765F8C00 /* Pods-RLACoordinator_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RLACoordinator_Example/Pods-RLACoordinator_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RLACoordinator_Example/Pods-RLACoordinator_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -621,18 +491,192 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		6CC7796020977190C251FA55195D9E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1390B987D3DD8340D639235953224F3 /* RLACoordinator.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RLACoordinator/RLACoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RLACoordinator/RLACoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RLACoordinator/RLACoordinator.modulemap";
+				PRODUCT_MODULE_NAME = RLACoordinator;
+				PRODUCT_NAME = RLACoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88B6B4389871F0E30E173D8524A6E7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1390B987D3DD8340D639235953224F3 /* RLACoordinator.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RLACoordinator/RLACoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RLACoordinator/RLACoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RLACoordinator/RLACoordinator.modulemap";
+				PRODUCT_MODULE_NAME = RLACoordinator;
+				PRODUCT_NAME = RLACoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A93ED4875D2BA56713C56F0704B1991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431DFF999AB7EAA8D4EC435088CC038E /* Pods-RLACoordinator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RLACoordinator_Example/Pods-RLACoordinator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RLACoordinator_Example/Pods-RLACoordinator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE9150775C6971CD2DA1FFBE08B42DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6B3D92E63FC7AB36938419F5B19E2F /* Pods-RLACoordinator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RLACoordinator_Tests/Pods-RLACoordinator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RLACoordinator_Tests/Pods-RLACoordinator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF284D128236F44599990C6C1D128B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECC2156DC792FD3260490D5765F8C00 /* Pods-RLACoordinator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RLACoordinator_Example/Pods-RLACoordinator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RLACoordinator_Example/Pods-RLACoordinator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -683,7 +727,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -696,73 +740,41 @@
 			};
 			name = Debug;
 		};
-		E1F4D1FC7A874A3384773125D8A95C5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81727164ED385A37BC6CC6A59418964A /* RLACoordinator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RLACoordinator/RLACoordinator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RLACoordinator/RLACoordinator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RLACoordinator/RLACoordinator.modulemap";
-				PRODUCT_MODULE_NAME = RLACoordinator;
-				PRODUCT_NAME = RLACoordinator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1E1BD2332967BB2AB16D00A83F593109 /* Build configuration list for PBXNativeTarget "RLACoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC7796020977190C251FA55195D9E3B /* Debug */,
+				88B6B4389871F0E30E173D8524A6E7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3398DE7EA4AA9918FC099755E8455612 /* Build configuration list for PBXNativeTarget "Pods-RLACoordinator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9150775C6971CD2DA1FFBE08B42DD2 /* Debug */,
+				0B4733384C7D1E60F77BA8F0C14670E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		883F6D8482B7E37B601FE3F087AC9A93 /* Build configuration list for PBXNativeTarget "RLACoordinator" */ = {
+		BD8E711FB783E528008F07C78D07BBCF /* Build configuration list for PBXNativeTarget "Pods-RLACoordinator_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CE1959F6731E62EC64C26A090BCD14A /* Debug */,
-				E1F4D1FC7A874A3384773125D8A95C5C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A6B107AF62D3FD98C7E67B798FE27BCB /* Build configuration list for PBXNativeTarget "Pods-RLACoordinator_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04B17EAF6956996F9A8237EA55AB1DC2 /* Debug */,
-				68498308FA870D97BCDC7356F3DB31D9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB21FBA181346544DA1388688893ECB6 /* Build configuration list for PBXNativeTarget "Pods-RLACoordinator_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0671B537F88B5DC5E1C9480308F4B49E /* Debug */,
-				527397B36F647356E0940D1AD6B58B62 /* Release */,
+				A93ED4875D2BA56713C56F0704B1991C /* Debug */,
+				CF284D128236F44599990C6C1D128B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

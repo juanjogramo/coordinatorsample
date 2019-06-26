@@ -22,7 +22,7 @@ pod 'RLACoordinator'
 
 ## Author
 
-juanjogramo@gmail.com, juanjogramo@gmail.com
+Juan José Granados, juanjogramo@gmail.com
 
 ## License
 

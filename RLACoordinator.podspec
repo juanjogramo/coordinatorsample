@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'RLACoordinator'
   s.version          = '0.1.0'
   s.summary          = 'A short description of RLACoordinator.'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +18,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = ''
+  s.description      = 'Coordinator pattern in iOS'
 
   s.homepage         = 'https://github.com/juanjogramo@gmail.com/RLACoordinator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'juanjogramo@gmail.com' => 'juanjogramo@gmail.com' }
-  s.source           = { :git => 'https://github.com/juanjogramo@gmail.com/RLACoordinator.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Juan José Granados' => 'juanjogramo@gmail.com' }
+  s.source           = { :git => 'https://github.com/juanjogramo/coordinatorsample.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/juanjogramo'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'RLACoordinator/Classes/**/*'
+  s.source_files = 'RLACoordinator/Classes/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'RLACoordinator' => ['RLACoordinator/Assets/*.png']

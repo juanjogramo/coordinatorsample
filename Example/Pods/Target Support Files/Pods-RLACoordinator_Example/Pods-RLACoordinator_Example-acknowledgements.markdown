@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## RLACoordinator
 
-Copyright (c) 2019 juanjogramo@gmail.com <juanjogramo@gmail.com>
+Copyright (c) 2019 Juan José Granados <juanjogramo@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
